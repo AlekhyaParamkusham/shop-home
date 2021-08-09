@@ -78,6 +78,57 @@ body {
 strike {
   color: #f8485e;
 }
+.aboutP {
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.abouth2 {
+  margin: 1rem;
+  margin-top: 2rem;
+  color: crimson;
+  text-align: center;
+  font-family: "Secular One", sans-serif;
+  font-size: xx-large;
+}
+
+.aboutDiv {
+  margin: 2rem 5rem 2rem 5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  /* border: 1px solid crimson; */
+  /* background-color: #d79771; */
+}
+
+.errorDiv {
+  margin: auto;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 5rem;
+}
+.errorImage {
+  width: 350px;
+  height: 350px;
+}
+
+.errorP {
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  color: crimson;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.aboutC {
+  background-color: #c9d8b6;
+  padding: 2rem;
+}
 
 hr {
   margin: 1rem 0;

@@ -1,9 +1,7 @@
 import React, { useState, useReducer } from "react";
 import ReactDOM, { createPortal } from "react-dom";
-
+import Cart from "./Cart";
 import Home from "./Home";
-import About from "./About";
-import Error from "./Error";
 
 import ReactBootstrap, {
   Container,
@@ -34,15 +32,9 @@ const App = () => {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/home">
-            <Home />
-          </Route>
 
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/*">
-            <Error />
+          <Route path="/cart">
+            <Cart />
           </Route>
         </Switch>
       </Router>
